@@ -17,5 +17,4 @@ jobs:
 
     - name: Run Nargo test
       run: |
-        cd circuits
         nargo test
