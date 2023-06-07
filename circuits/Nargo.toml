@@ -1,0 +1,5 @@
+[package]
+authors = ["sambarnes"]
+compiler_version = "0.6.0"
+
+[dependencies]
