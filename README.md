@@ -1,4 +1,4 @@
-<img align="right" width="300" height="300" top="100" src="./README.png">
+<img align="right" width="250" height="250" top="100" src="./README.png">
 
 # seapot
 
