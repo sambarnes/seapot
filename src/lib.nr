@@ -5,6 +5,7 @@ mod structs;
 fn todo(x : Field, y : Field) {
     // TODO: write some basic utils + tests, starting w/ basic order hashing
     assert(x != y);
+    assert(enums::OrderType::FULL_OPEN == 0);
 }
 
 #[test]

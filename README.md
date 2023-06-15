@@ -16,7 +16,7 @@ will pull over more where it makes sense
 
 ```toml
 [dependencies]
-seapot = {tag = "v1.5.0-alpha", git = "https://github.com/sambarnes/seapot"}
+seapot = {tag = "v1.5.1-alpha", git = "https://github.com/sambarnes/seapot"}
 ```
 
 2. Import the library into your Noir code.
@@ -26,7 +26,7 @@ use dep::std;
 use dep::seapot;
 
 fn main(){
-    let foo = seapot::enums::ItemType_ERC721;
+    let foo = seapot::enums::ItemType::ERC721;
     std::println(foo);
 }
 
